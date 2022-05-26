@@ -207,10 +207,8 @@ button:hover{
 
 
 @keyframes opaqTransition {
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100vw);
-    }
-}
+    3% { transform: translateX( 0 ); }
+    25% { transform: translateX( 0 ); }
+    28% { transform: translateX( -100vw ); }
+    100% { transform: translateX( -100vw ); }
+  }
